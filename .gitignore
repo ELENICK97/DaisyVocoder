@@ -1,0 +1,24 @@
+# Build outputs
+build/
+tests/build/
+tools/build/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.exe
+*.obj
+*.pdb
+*.ilk
+
+# Local audio renders
+*.wav
+
+# VS Code / Cortex-Debug local state
+.vscode/.cortex-debug.*
+
+# Electrosmith pinout image (third-party asset, not redistributed)
+SeedPinout.png
